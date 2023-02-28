@@ -58,7 +58,7 @@ app.get('/watch', async (req, res) => {
             const CHUNK_SIZE = 10 ** 6; // 1MB
             let size = result.length
             let start = Number(range.replace(/\D/g, ""))
-            let end = Math.min(start + CHUNK_SIZE, size - 1)
+            let end = size - 1
 
             const contentLength = end - start + 1;
             const headers = {
