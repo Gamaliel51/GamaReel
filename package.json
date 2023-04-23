@@ -12,7 +12,7 @@
     "devStart": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Miracle Ndukwe",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
